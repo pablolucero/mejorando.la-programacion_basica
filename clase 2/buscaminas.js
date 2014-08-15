@@ -12,7 +12,7 @@ var y = prompt("Elige una opcion del eje y (entre 0 y 2)");
 if (x <= 2 && y <= 2) {
 	var opcion = matriz[x][y];
 	if (opcion == 1) {
-		document.writeln("BOOM! Perdiste!<br>");
+		document.writeln("<b>BOOM!</b> Perdiste!</b>");
 	} else {
 		document.writeln("Ganaste!<br>");
 	}
